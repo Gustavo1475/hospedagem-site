@@ -1,0 +1,261 @@
+*{margin: 0; padding: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+	background-color: #E5E5E5;
+}
+
+
+width: 100%;
+header, #img-topo {
+		height: px;
+	background-color: #00BCD4 ;
+}
+
+img{
+	width: 100%;
+}
+
+nav{
+	background-color: #00BCD4;
+	text-align: center;
+	padding: 20px;  
+}
+
+a{
+	font: 1.2rem "Roboto", sans-serif;
+	text-decoration: none;
+}
+
+.a-menu{
+	margin-right: 20px;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+.a-menu:link, .a-menu:visited{ /*menu ao clicar*/
+	color:#FFF;
+}
+
+.a-menu:hover, .a-menu:active{	/*menu quando o mouse passa sobre*/
+	color: skyblue;	
+}
+
+main, #pag-beneficios, #pag-modalidades, #pag-treinos{
+	padding: 100px;
+}
+
+h1{
+	font: 3rem "Kaushan Script", cursive;
+	color: #3F51B5;
+	text-align: center;
+	margin-bottom: 30px; /*define margem na parte inferior de um elemento*/
+}
+
+h2{
+	font: 3rem "Kaushan Script", cursive;
+	color: #3F51B5;
+	margin-bottom: 20px;
+}
+
+p{
+	font: 1.2rem "Roboto", sans-serif;
+	color: #777;
+	text-align: justify;
+	line-height: 30px; /*altura entrelinha*/
+}
+
+#txt-preto{  /*formatação da tag <spam>*/
+	color: #000;
+}
+
+section{
+
+}
+
+#pag-beneficios {
+	background-color: #00BCD4;
+}
+
+#pag-beneficios h2 {
+	color: #FFF;
+}
+
+#pag-beneficios p {
+	color: #FFF;
+	margin-top: 20px;
+}
+
+ul{
+	list-style-type: circle;
+	padding: 20px 50px; 
+
+}
+
+li{
+	font: 1.2rem "Roboto", sans-serif;
+	color: #FFF;
+	margin-bottom: 10px;
+}
+
+#pag-modalidades{
+	background-color: #EEE;
+}
+
+#container{
+	display: flex; /*alinhando os cards*/
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.card{
+	background-color: #FFF;
+	margin: 10px;
+	width: 25%;
+	border-radius: 8px; /*arrendondamento da borda*/
+	box-shadow: 0 4px 8px #CCC; /*sombreamento do card*/
+	transition: 0.5%;
+}
+
+.card:hover{
+	box-shadow: 0 8px 16px #CCC;
+}
+
+.card-content{
+	padding: 10px;
+}
+
+.card-content p{
+	font: 1rem "Roboto", sans-serif;
+	line-height: 20px;
+}
+
+h3{
+	font: 2rem "Kaushan Script", cursive;
+	color: #00BCD4;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#pag-treinos{
+
+}
+
+#pag-treinos p{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#container-treinos{
+	display: flex;
+}
+
+.coluna-treinos{
+	padding: 20px;
+}
+
+.container-imagens{
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-imagens p{
+	color: #000;
+}
+
+.img-icones{
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+}
+
+video{
+	width: 400px;
+}
+
+footer{
+	background-color: #000;
+	padding: 20px;
+}
+
+footer p{
+	text-align: center;
+	color: #FFF;
+}
+
+footer a{
+	color: #FFF;
+}
+
+footer a:hover{
+	color: #00BCD4;
+}
+
+/*pagina agendamentos*/
+
+#pag-agendamentos{
+
+}
+
+#pag-agendamentos p{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+form{
+	width: 400px;
+	margin: 0 auto;
+}
+
+input, select, textarea{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	box-sizing: border-box;
+	border: 1px solid #C4C4C4;
+	color: #777;
+}
+
+label, fieldset, input, select, textarea{
+	font: 1rem "Roboto", sans-serif;
+}
+
+fieldset{
+	border: 1px solid #C4C4C4;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+#data-hora-aula{
+	display: flex;
+}
+
+input[type="radio"], input[type="checkbox"]{
+	width: 15px;
+	height: 15px;
+	margin-left: 50px;
+}
+
+textarea{
+	height: 60px;
+}
+
+#botoes-form{
+	display: flex;
+}
+
+input[type="submit"], input[type="reset"]{
+	margin: 20px;
+	background-color: #00C34A;
+	color: #FFF;
+	border: 0;
+	border-radius: 5px;
+}
+
+input[type="reset"]{
+	background-color: #F47E7E;
+}
